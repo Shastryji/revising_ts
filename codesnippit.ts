@@ -4,3 +4,4 @@ function greet(firstName: String){
 
 greet("Shastryji");
 
+//create a function greet that can log firstName of user
