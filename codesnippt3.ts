@@ -9,3 +9,4 @@ calling(function()
 })
 
 //create a funciton that takes another function as input, and run it after 1 second
+// so this is the fuintion  that I created in ts
