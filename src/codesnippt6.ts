@@ -13,7 +13,8 @@
 // }
 
 //issue : got that right
-// to define it's type you use interfaces
+// to define it's type you use interfaces this is one type of usage
+
 
 interface User {
     name: string,
