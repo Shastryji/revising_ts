@@ -8,10 +8,12 @@ interface Peoples {
 class Manager implements Peoples{
     name:string; //these values will attach with the Manager class
     age:number;
+    city: string;// we can add extra things but we can't remove the things that define inside interface
 
     constructor(name:string, age:number){
         this.name=name;
         this.age = age;
+        this.city = "Chandighar"
     }
 
 }
