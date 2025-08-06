@@ -3,6 +3,7 @@
 interface Peoples {
     name: string,
     age:number,
+    isLegal():boolean
 }
 
 class Manager implements Peoples{
@@ -15,8 +16,12 @@ class Manager implements Peoples{
         this.age = age;
         this.city = "Chandighar"
     }
+    isLegal(): boolean {
+        return this.age>18 // now we can access the variable inside the function in object type interface we can't
+    }
 
 }
 
 let harkirat = new Manager("harkirat",30)
 console.log(harkirat)
+console.log(harkirat.isLegal())
