@@ -3,10 +3,6 @@
 interface People {
     name: string,
     age:number,
-    address: {
-        city: string,
-        pincode: number
-    }
 }
 
 class Manager implements People{
@@ -14,6 +10,8 @@ class Manager implements People{
     age:number;
 
     constructor(name:string, age:number){
-
+        this.name=name;
+        this.age = age;
     }
+
 }
