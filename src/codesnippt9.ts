@@ -1,11 +1,11 @@
 // lets create a class with implements interfaces in typescript it is similar to java
 
-interface People {
+interface Peoples {
     name: string,
     age:number,
 }
 
-class Manager implements People{
+class Manager implements Peoples{
     name:string; //these values will attach with the Manager class
     age:number;
 
@@ -15,3 +15,6 @@ class Manager implements People{
     }
 
 }
+
+let harkirat = new Manager("harkirat",30)
+console.log(harkirat)
