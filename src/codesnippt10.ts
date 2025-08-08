@@ -1,3 +1,4 @@
+// create a function that takes either a user or an admin as input and return the user or admin name
 interface Admin1 {
     name: string,
     age: number,
