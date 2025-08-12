@@ -28,3 +28,6 @@ let demi: demin={
 
 const p3: denim = came 
 const p2: demin = came // this can't be done with type
+
+
+//find why the above one work and why not the third one 
