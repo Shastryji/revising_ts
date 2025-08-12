@@ -29,4 +29,4 @@ let momadd: usermom = {
     }
  }
 
- console.log(displayMom(momadd))
+ console.log(displayMom(momadd)) //true
