@@ -17,7 +17,7 @@ const came  = {
 const came1 : denim = {
     name : "shivam",
     sex: "karado",
-    logo :"bamboo" // we cannot any things in this as you can see idk why we need to find
+    logo :"bamboo" // we cannot any things in this as you can see idk why we need to know
 }
 
 let demi: demin={
